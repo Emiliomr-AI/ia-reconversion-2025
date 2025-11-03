@@ -1,0 +1,11 @@
+paths:
+  data_dir: "data"
+  raw: "data/raw"
+  interim: "data/interim"
+  processed: "data/processed"
+rag:
+  embed_model: "text-embedding-3-small"
+  top_k: 5
+service:
+  host: "0.0.0.0"
+  port: 8000

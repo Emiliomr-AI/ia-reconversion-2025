@@ -1,0 +1,19 @@
+{
+  "models": [
+    {
+      "title": "GPT-5 (quality)",
+      "provider": "openai",
+      "model": "gpt-5",
+      "apiKey": "${env:OPENAI_API_KEY}",
+      "temperature": 0.2
+    },
+    {
+      "title": "4o-mini (fast)",
+      "provider": "openai",
+      "model": "gpt-4o-mini",
+      "apiKey": "${env:OPENAI_API_KEY}",
+      "temperature": 0.3
+    }
+  ],
+  "contextProviders": [{ "name": "editor" }, { "name": "terminal" }]
+}
