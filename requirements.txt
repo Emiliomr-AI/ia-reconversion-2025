@@ -1,0 +1,8 @@
+﻿fastapi
+uvicorn[standard]
+pytest
+pytest-cov
+ruff
+black
+mypy
+pre-commit
