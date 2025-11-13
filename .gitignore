@@ -14,3 +14,5 @@ data/processed/**
 *.ipynb_checkpoints
 # vscode
 .vscode/
+
+requirements_lock.txt
